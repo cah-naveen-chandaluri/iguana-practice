@@ -1,0 +1,32 @@
+<channel
+   name="storing xml elements into file"
+   guid="BBAF9B48906FF9B94C8A503BF1E405A5"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_file
+      output_dir="C:/source/destination/"
+      write_to_separate_file="false"
+      output_single_filename="result"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="4"
+      output_filename_mask="output_%i.hl7"
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_password="+D7WpgPVJZkcJlRg3TaHp1G23/ZfKNNXYU1frPsxhcs="
+      sftp_authentication_method="user_password"
+      use_ftp="false">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="DBDC9424CB2B51AD2D3043889B4B7D34"/>
+      </dequeue_list>
+   </to_file>
+   <from_mapper
+      guid="reading_an_empty_xml_element-From-CTo4RvadSJSmrs"
+      commit_id="027287fdf6f47cf6de1f628d9385c008f325b105"
+      commit_comment="inserting xml elements into file"
+      poll_time="10000">
+   </from_mapper>
+</channel>
