@@ -1,0 +1,32 @@
+<channel
+   name="6]  db_to_file_3"
+   guid="05A341E8629B4D942F7CBF75C4C3BC61"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_file
+      output_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/db_to_file/destination/"
+      write_to_separate_file="false"
+      output_single_filename="target5"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="0"
+      output_filename_mask=""
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_password="0DvVaBchX4Uh3AZ95G3xNTCp0lCH4N2gjw6nSImqBTQ="
+      sftp_authentication_method="user_password"
+      use_ftp="false">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="6EE7D94A7A32223ACC0C8231999A2BEC"/>
+      </dequeue_list>
+   </to_file>
+   <from_mapper
+      guid="db_to_file_3-From-6jNElBS54yqc3p"
+      commit_id="36a648aafa445547bfacafafb81fd30b968d3c80"
+      commit_comment="COMMIT"
+      poll_time="10000">
+   </from_mapper>
+</channel>
