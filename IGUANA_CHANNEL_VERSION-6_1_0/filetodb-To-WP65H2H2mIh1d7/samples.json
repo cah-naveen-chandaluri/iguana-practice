@@ -1,0 +1,8 @@
+{
+    "Samples": [
+        {
+            "Message": "<?xml version=\"1.0\"?>\r\n<patients>\r\n  <patient id=\"2668844\">\r\n    <first-name>Gary</first-name>\r\n    <last-name>Fitzgerald</last-name>\r\n    <social-security-no>957-321-126</social-security-no>\r\n  </patient>\r\n</patients>",
+            "Name": ""
+        }
+    ]
+}
