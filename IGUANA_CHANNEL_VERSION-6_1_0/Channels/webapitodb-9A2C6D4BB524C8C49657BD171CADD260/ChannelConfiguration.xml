@@ -1,0 +1,24 @@
+<channel
+   name="webapitodb"
+   guid="9A2C6D4BB524C8C49657BD171CADD260"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="webapitodb-To-4ymvIIuvA26Wgb"
+      commit_id="d86ccd5305d71e1ea2d564044f1e143a39b76e67"
+      commit_comment="destination commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="74D2BDAAD65285216DB73C989143C0C4"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="webapitodb-From-I6wG75amPHUcfM"
+      commit_id="b5bb9926effc5fc8bf9dc8c82ed4d9cab14f44df"
+      commit_comment="Initial commit"
+      poll_time="10000">
+   </from_mapper>
+</channel>
