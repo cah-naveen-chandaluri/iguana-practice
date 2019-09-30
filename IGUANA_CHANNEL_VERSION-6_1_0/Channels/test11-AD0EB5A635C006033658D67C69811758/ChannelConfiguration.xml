@@ -1,0 +1,24 @@
+<channel
+   name="test11"
+   guid="AD0EB5A635C006033658D67C69811758"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="test11-To-eKrt5zSNJlPRML"
+      commit_id="659d7df22f80e5e086d2a629d028e062b1ad7482"
+      commit_comment="good">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="3C4F542394BFB26B21C4A3EFBD787B9A"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="test11-From-Kdt9yTH6bwLxWB"
+      commit_id="1bc3189bf95f16b7227a9af20ff954e062d0befe"
+      commit_comment="good"
+      poll_time="10000">
+   </from_mapper>
+</channel>
