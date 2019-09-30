@@ -1,0 +1,42 @@
+<channel
+   name="channel2"
+   guid="BE1B1CF7A45E779C91C1C8B3696F6F98"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_file
+      output_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/week1/Destination/"
+      write_to_separate_file="false"
+      output_single_filename="channel2"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="0"
+      output_filename_mask=""
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_username="admin"
+      ftp_password="0DvVaBchX4Uh3AZ95G3xNTCp0lCH4N2gjw6nSImqBTQ="
+      sftp_authentication_method="user_password"
+      use_ftp="false">
+      <dequeue_list>
+         <dequeue
+            source_name="channel3"
+            dequeue_guid="0349EC7E9B7CC75C136F7F3D65F2F385"/>
+      </dequeue_list>
+   </to_file>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="channel2-Filter-cWeWyRBLIFBbuI"
+      translator_commit_id="a525e875e6de9c3527a21876232e45bbc880a5df"
+      translator_commit_comment="Restore Translators: Restoring bulk channels deleted in commit 0116eeddcd4c72422a4aeb5b150f3defcd4b3e21">
+   </message_filter>
+</channel>
