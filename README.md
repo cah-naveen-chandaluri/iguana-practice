@@ -11,5 +11,7 @@ Practice POC's:
 5] selecting common rows		
 
 6] storing xml elements into file
+
 7] webapi to database(webapi which contains json data will be stored in database)
+
 8] parse csv file(parse the csv file and return the result as table and stored the result in the database)
