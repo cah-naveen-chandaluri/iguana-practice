@@ -1,0 +1,24 @@
+<channel
+   name=".webapi to database"
+   guid="33868CB75D9CC723CCD5696E493F6146"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="webapi_to_database-To-fOA1dX3qgq8zjh"
+      commit_id="320d98928f91a6c681a041cd68e12c4e2f32ff19"
+      commit_comment="good">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="3D8AA5111E14D5F9313553FD9E25315C"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="webapi_to_database-From-ygAwzV5NF8mlmN"
+      commit_id="9e8b562429aa51f121bcabec1afb6f9aac9a0fe4"
+      commit_comment="good"
+      poll_time="10000">
+   </from_mapper>
+</channel>
